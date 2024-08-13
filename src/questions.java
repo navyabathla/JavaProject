@@ -130,7 +130,7 @@ public class questions {
 //            int next = first+second;
 //            first=second;
 //            second=next;
-//        }
+//     }
 
     }
 }
