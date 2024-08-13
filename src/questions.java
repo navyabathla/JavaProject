@@ -38,7 +38,6 @@ public class questions {
 //            int temp = b;
 //            b = a % b;
 //            a = temp;
-//
 //        }
 //        int hcf = a;
 //        int lcm = (num1*num2) / hcf;
@@ -57,6 +56,81 @@ public class questions {
 //        sum+=number;
 //        }
 //        System.out.println("sum is: "+ sum);
+
+//        //6. Write a program to print whether a number is even or odd, also take input from the user.
+//        System.out.print("Enter number: ");
+//        int number = sc.nextInt();
+//        if(number%2==0){
+//            System.out.println("Number is even");
+//        }
+//        else{
+//            System.out.println("Number is odd");
+//        }
+
+//        //7. Take name as input and print a greeting message for that particular name.
+//        System.out.print("Enter name: ");
+//        String name = sc.next();
+//        System.out.println("Welcome "+name);
+
+//        //8. Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+//        System.out.print("Enter principal: ");
+//        float p = sc.nextFloat();
+//        System.out.print("Enter rate: ");
+//        float r = sc.nextFloat();
+//        System.out.print("Enter time(in years): ");
+//        float t = sc.nextFloat();
+//        float i = (p*r*t)/100;
+//        System.out.println("Simple Interest is; "+i);
+
+//        //9. Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+//        System.out.print("Enter first number: ");
+//        int a = sc.nextInt();
+//        System.out.print("Enter second number: ");
+//        int b = sc.nextInt();
+//        System.out.print("Enter operator(+,-,*,/): ");
+//        char op = sc.next().charAt(0);
+//        if (op=='+'){
+//            System.out.println("Result is: "+ (a+b));
+//        } else if(op=='-'){
+//            System.out.println("Result is: "+ (a-b));
+//        } else if(op=='*'){
+//            System.out.println("Result is: "+ (a*b));
+//        } else if(op=='/'){
+//            System.out.println("Result is: "+ (a/b));
+//        }
+
+//        //10. Take 2 numbers as input and print the largest number.
+//        System.out.println("Enter first number: ");
+//        int a = sc.nextInt();
+//        System.out.println("Enter second number: ");
+//        int b = sc.nextInt();
+//        if(a>b){
+//            System.out.println(a+" is greater than "+b);
+//        }
+//        else if(a<b){
+//            System.out.println(a+" is smaller than "+b);
+//        }
+//        else{
+//            System.out.println(a+" is equal to "+b);
+//        }
+
+//        //11. Input currency in rupees and output in USD.
+//        System.out.println("Enter amount in rupees: ");
+//        double amt = sc.nextDouble();
+//        double usd= amt*0.012 ;
+//        System.out.println("Amount in usd: "+usd);
+
+//        //12. To calculate Fibonacci Series up to n numbers.
+//        System.out.print("Enter the number of values for fibonacci series: ");
+//        int n = sc.nextInt();
+//        int first = 0, second = 1;
+//        System.out.print("Fibonacci series: " + first);
+//        for(int i=1; i<n; i++){
+//            System.out.print(" "+second);
+//            int next = first+second;
+//            first=second;
+//            second=next;
+//        }
 
     }
 }
