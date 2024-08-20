@@ -1,3 +1,4 @@
+import javax.naming.spi.StateFactory;
 import java.util.Scanner; //importing package util and class scanner
 public class Main{
     public static void main(String[] args){
@@ -61,5 +62,89 @@ public class Main{
 //        float tempC = sc.nextFloat();
 //        float tempF = (tempC * 9/5) + 32;
 //        System.out.println(tempF);
+
+
+        // print numbers from 1 t
+//        for (int i=1;i<=5;i++){
+//            System.out.println(i);
+//        }
+
+//        int i=1;
+//        while(i<=5){
+//            System.out.println(i);
+//            i++;
+//        }
+//        int i= 1;
+//        do{
+//            System.out.println(i);
+//            i++;
+//        }while(i<=5);
+
+//        int a=sc.nextInt();
+//        int b=sc.nextInt();
+//        int c=sc.nextInt();
+//        // find the largest number
+//        int max = a;
+//        if (b>max){
+//            max=b;
+//        }
+//        if (c>max){
+//            max=c;
+//        }
+//        System.out.println(max);
+
+//        int max=0;
+//        if (a>max){
+//            max=a;
+//        }else{
+//            max=b;
+//        }
+//        if (c>max){
+//            max=c;
+//        }
+//        System.out.println(max);
+//
+//        int max= Math.max(c,Math.max(a,b));
+//        System.out.println(max);
+//        char ch= sc.next().trim().charAt(0);
+//        if(ch >= 'a' && ch<= 'z'){
+//            System.out.println("lowercase");
+//        }else{
+//            System.out.println("uppercase");
+//        }
+
+//        //fibonacci series
+//        int a=0;
+//        int b=1;
+//        int n= sc.nextInt();
+//        int count=2;
+//        while (count<=n){
+//            int temp = b;
+//            b=b+a;
+//            a=temp;
+//            count++;
+//        }
+//        System.out.println(b);
+
+        String fruit = sc.next();
+        switch (fruit) {
+            case "mango":
+                System.out.println("sweet yellow fruit");
+                break;
+            case  "apple":
+                System.out.println("red fruit");
+                break;
+            case "banana":
+                System.out.println("yellow long fruit");
+                break;
+            case "grapes":
+                System.out.println("small green fruit");
+                break;
+            default:
+                System.out.println("enter valid fruit");
+        }
+
+
+
     }
 }
