@@ -82,7 +82,25 @@ public class questions2 {
 //       System.out.println(Arrays.toString(arr));
 //       System.out.println(max(arr));
 //
+//        //Q. check whether the string is palindrome or not
+//        String a = "abcdcba";
+//        System.out.println(isPalindrome(a));
    }
+//   static boolean isPalindrome(String str){
+//        if (str == null || str.length()==0){
+//            return true;
+//        }
+//        str = str.toLowerCase();
+//        for (int i = 0;i < str.length()/2;i++){
+//            char start = str.charAt(i);
+//            char end = str.charAt(str.length()-1-i);
+//            if (start!=end){
+//                return false;
+//            }
+//        }
+//        return true;
+//   }
+
 //    //Q23.
 //    static void reverse(int[] arr){
 //        int start = 0;
