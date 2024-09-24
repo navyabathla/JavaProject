@@ -20,7 +20,8 @@ public class recursion{
 //        reverse(1921);
 //        System.out.println(sum);
 //        ispalindrome(12321);
-        
+//        int num = 30204;
+//        System.out.println(count(num));
 
 
 
@@ -88,8 +89,34 @@ public class recursion{
 //    static boolean ispalindrome(int n){            ////wrong
 //        return n == reverse(n);
 //    }
-
-
+//    static int count (int n){
+//        return helper(n,0);
+//    }
+//
+//    private static int helper(int n, int c) {
+//        if (n==0){
+//            return c;
+//        }
+//        int rem = n%10;
+//        if (rem == 0){
+//            return helper(n/10,c+1);
+//        }
+//        return helper(n/10,c);
+//    }
+//    public int numberOfSteps(int num) {
+//        return helper(num,0);
+//
+//    }
+//
+//    private int helper(int num, int steps) {
+//        if (num==0){
+//            return steps;
+//        }
+//        if (num % 2 ==0){
+//            return helper(num/2,steps+1);
+//        }
+//        return helper (num-1,steps+1);
+//    }
 
 
 //    static int search(int[] arr, int target, int s,int e){
