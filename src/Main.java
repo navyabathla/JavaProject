@@ -64,7 +64,7 @@ public class Main{
 //        System.out.println(tempF);
 
 
-        // print numbers from 1 t
+        // print numbers from 1 t0 5
 //        for (int i=1;i<=5;i++){
 //            System.out.println(i);
 //        }

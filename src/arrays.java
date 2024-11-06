@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class arrays{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
         // array of primitives
-//        int[] arr= new int[5];
+//        int[] arr = new int[5];
 //        arr[0]=1;
 //        arr[1]=2;
 //        arr[2]=3;
@@ -40,7 +40,7 @@ public class arrays{
 //        };
 //        //input
 //        int arr[][] = new int[3][3];
-////        System.out.println(arr.length); // will give number of rows
+//        System.out.println(arr.length); // will give number of rows
 //        for (int row=0;row<arr.length;row++ ){
 //            for (int col=0; col<arr[row].length;col++){
 //                arr[row][col]=sc.nextInt();
@@ -85,33 +85,79 @@ public class arrays{
 //        for (int i=0; i<5;i++) {
 //            System.out.print(list.get(i) + " "); //pass index here list[index] will not work here
 //        }
-        //multiD arraylist
+//        //multiD arraylist
 //        ArrayList<ArrayList<Integer>> list2D= new ArrayList<>();
-        //initialisation
+//        //initialisation
 //        for (int i=0;i<3;i++){
 //            list2D.add(new ArrayList<>());
 //        }
-        //add elements
+//        //add elements
 //        for (int i=0;i<3;i++){
 //            for (int j=0;j<3;j++){
 //                list2D.get(i).add(sc.nextInt());
 //            }
 //        }
 //        System.out.println(list2D);
-
-
-
-
-
-
-
-
-
-
-
-
-
+        //second largest element in an array
+//        int[] arr = {34,21,56,82,4,19,99};
+//        System.out.println(Arrays.toString(arr));
+//        slargestsmallestswap(arr);
+//        System.out.println(Arrays.toString(arr));
 
 
     }
+//    //second largest element
+//    static void slargestsmallestswap(int[] arr){
+//        int max1,max2,max1i,max2i;
+//        if (arr[0]>arr[1]){
+//            max1 = arr[0];
+//            max2 = arr[1];
+//            max1i=0;
+//            max2i=1;
+//
+//        }else {
+//            max2=arr[0];
+//            max1=arr[1];
+//            max1i=1;
+//            max2i=0;
+//        }
+//        for (int i=2;i<arr.length;i++){
+//            if (arr[i]>max1){
+//                max2=max1;
+//                max1=arr[i];
+//                max2i=max1i;
+//                max1i=i;
+//            }else if(arr[i]>max2){
+//                max2=arr[i];
+//                max2i=i;
+//            }
+//        }
+//        int min1,min2,min1i,min2i;
+//        if (arr[0]<arr[1]){
+//            min1 = arr[0];
+//            min2 = arr[1];
+//            min1i=0;
+//            min2i=1;
+//
+//        }else {
+//            min2=arr[0];
+//            min1=arr[1];
+//            min1i=1;
+//            min2i=0;
+//        }
+//        for (int i=2;i<arr.length;i++){
+//            if (arr[i]<min1){
+//                min2=min1;
+//                min1=arr[i];
+//                min2i=min1i;
+//                min1i=i;
+//            }else if(arr[i]<min2){
+//                min2=arr[i];
+//                min2i=i;
+//            }
+//        }
+//        int temp = arr[max2i];
+//        arr[max2i]=arr[min2i];
+//        arr[min2i]=temp;
+//    }
 }
